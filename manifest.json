@@ -1,0 +1,39 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Font Awesome Icon Search",
+  "description": "Search and copy Font Awesome icons in multiple formats with ease.",
+  "developer_name": "Hassan Tariq",
+  "icon": "images/icon.svg",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "fa_kw",
+      "type": "keyword",
+      "name": "Font Awesome Search Keyword",
+      "description": "Keyword to trigger the extension",
+      "default_value": "fa"
+    },
+    {
+      "id": "copy_format",
+      "type": "select",
+      "name": "Copy Format",
+      "description": "Format to use when copying icons",
+      "options": [
+        { "value": "html", "text": "HTML tag" },
+        { "value": "class", "text": "CSS classes only (fas fa-icon)" },
+        { "value": "unicode", "text": "Unicode character (&#xf000;)" },
+        { "value": "svg", "text": "SVG markup" }
+      ],
+      "default_value": "html"
+    },
+    {
+      "id": "icon_color",
+      "type": "text",
+      "name": "Icon Preview Color",
+      "description": "Color for icon previews (CSS hex value)",
+      "default_value": "#7dcfff"
+    }
+  ]
+}
