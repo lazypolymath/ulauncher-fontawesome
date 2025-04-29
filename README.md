@@ -13,7 +13,7 @@ A powerful Ulauncher extension that provides instant access to the entire Font A
 - **Smart Sorting**: Most relevant matches appear first with intelligent ranking.
 - **Style Variants**: Access all Font Awesome styles (solid, regular, and brands).
 - **Search Terms**: View related keywords to discover similar icons.
-- **Syncronize Icons**: Includes the helper script to synchronize the font awesome icons so that you always have the update collection of icons.
+- **Syncronize Icons**: Includes the helper script to synchronize the font awesome icons so that you always have the latest icons.
 
 ## Installation
 
